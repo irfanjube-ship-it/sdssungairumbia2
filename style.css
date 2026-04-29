@@ -1,51 +1,122 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
 body {
-font-family: Arial, sans-serif;
-margin: 0;
-background: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
 }
 
+/* HEADER */
 header {
-background: #2e7d32;
-color: white;
-padding: 20px;
-text-align: center;
+    background: linear-gradient(135deg, #2e7d32, #66bb6a);
+    color: white;
+    text-align: center;
+    padding: 25px;
 }
 
+/* NAV */
 nav {
-background: #333;
-padding: 10px;
-text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1b5e20;
+    padding: 10px 20px;
 }
 
-nav a {
-color: white;
-margin: 10px;
-text-decoration: none;
+nav .logo {
+    color: white;
+    font-weight: bold;
 }
 
-.hero {
-padding: 50px;
-text-align: center;
-background: #a5d6a7;
+nav .menu a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
 }
 
-section {
-padding: 20px;
+nav .menu a:hover {
+    color: yellow;
 }
 
-table {
-width: 100%;
-border-collapse: collapse;
+/* SLIDER */
+.slider {
+    height: 250px;
+    background: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
 }
 
-table, th, td {
-border: 1px solid black;
-padding: 8px;
+.slide {
+    display: none;
 }
 
+.slide.active {
+    display: block;
+    animation: fade 1s;
+}
+
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* CARD */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card i {
+    font-size: 30px;
+    color: green;
+    margin-bottom: 10px;
+}
+
+/* NEWS */
+.news {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.news-item {
+    background: white;
+    padding: 15px;
+    flex: 1;
+    min-width: 200px;
+    border-left: 5px solid green;
+}
+
+/* FOOTER */
 footer {
-background: black;
-color: white;
-text-align: center;
-padding: 10px;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
