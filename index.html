@@ -1,147 +1,73 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SDS Sungai Rumbia 2 - Beranda</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SDS Sungai Rumbia 2</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 </head>
 <body>
-    <!-- Bagian Header -->
-    <header>
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <img src="images/logo.png" alt="Logo SDS Sungai Rumbia 2">
-                    <div class="sekolah-info">
-                        <h1>SDS Sungai Rumbia 2</h1>
-                        <p>Mencetak Generasi Cerdas, Berakhlak Mulia, dan Berprestasi</p>
-                    </div>
-                </div>
-                <div class="kontak-header">
-                    <p><i class="fa fa-phone"></i> (0761) XXXXXX</p>
-                    <p><i class="fa fa-envelope"></i> sdssungaumbia2@gmail.com</p>
-                </div>
-            </div>
-        </div>
-    </header>
 
-    <!-- Navigasi -->
-    <nav>
-        <div class="container">
-            <ul class="nav-menu">
-                <li><a href="index.html" class="aktif">Beranda</a></li>
-                <li><a href="profil.html">Profil Sekolah</a></li>
-                <li><a href="fasilitas.html">Fasilitas</a></li>
-                <li><a href="guru-karyawan.html">Guru & Karyawan</a></li>
-                <li><a href="berita.html">Berita & Pengumuman</a></li>
-                <li><a href="kontak.html">Kontak</a></li>
-            </ul>
-            <div class="menu-toggle" id="menuToggle">
-                <i class="fa fa-bars"></i>
-            </div>
-        </div>
-    </nav>
+<header>
+    <h1>SDS Sungai Rumbia 2</h1>
+    <p>Sekolah Unggul & Berkarakter</p>
+</header>
 
-    <!-- Bagian Banner -->
-    <section class="banner">
-        <div class="container">
-            <div class="banner-content">
-                <h2>Selamat Datang di Website Resmi</h2>
-                <h3>SDS Sungai Rumbia 2</h3>
-                <p>Tempat menuntut ilmu yang nyaman, aman, dan mendukung perkembangan anak secara optimal</p>
-                <a href="profil.html" class="btn">Pelajari Lebih Lanjut</a>
-            </div>
-        </div>
-    </section>
+<nav>
+    <div class="logo">🏫 SDS</div>
+    <div class="menu">
+        <a href="#">Beranda</a>
+        <a href="profil.html">Profil</a>
+        <a href="guru.html">Guru</a>
+        <a href="kontak.html">Kontak</a>
+    </div>
+</nav>
 
-    <!-- Bagian Informasi Singkat -->
-    <section class="info-sekolah">
-        <div class="container">
-            <h2 class="judul-bagian">Informasi Sekolah</h2>
-            <div class="grid-info">
-                <div class="kartu-info">
-                    <i class="fa fa-university"></i>
-                    <h3>Profil Sekolah</h3>
-                    <p>Mengetahui sejarah, visi, misi, dan tujuan pendidikan kami.</p>
-                    <a href="profil.html" class="btn-kecil">Baca Selengkapnya</a>
-                </div>
-                <div class="kartu-info">
-                    <i class="fa fa-building"></i>
-                    <h3>Fasilitas</h3>
-                    <p>Fasilitas lengkap dan memadai untuk mendukung proses belajar mengajar.</p>
-                    <a href="fasilitas.html" class="btn-kecil">Baca Selengkapnya</a>
-                </div>
-                <div class="kartu-info">
-                    <i class="fa fa-users"></i>
-                    <h3>Tenaga Pengajar</h3>
-                    <p>Guru-guru yang berkompeten, berpengalaman, dan berdedikasi tinggi.</p>
-                    <a href="guru-karyawan.html" class="btn-kecil">Baca Selengkapnya</a>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- SLIDER -->
+<div class="slider">
+    <div class="slides">
+        <div class="slide active">Selamat Datang di Website Sekolah</div>
+        <div class="slide">Pendidikan Berkualitas untuk Masa Depan</div>
+        <div class="slide">Membangun Karakter & Prestasi</div>
+    </div>
+</div>
 
-    <!-- Bagian Berita Terbaru -->
-    <section class="berita-terbaru">
-        <div class="container">
-            <h2 class="judul-bagian">Berita Terbaru</h2>
-            <div class="grid-berita">
-                <div class="kartu-berita">
-                    <img src="images/sekolah.jpg" alt="Kegiatan Belajar Mengajar">
-                    <div class="isi-berita">
-                        <h3>Kegiatan Belajar Mengajar Semester Genap Dimulai</h3>
-                        <p>Tanggal: 10 Januari 2025</p>
-                        <p>Kegiatan belajar mengajar semester genap tahun ajaran 2024/2025 telah dimulai dengan lancar dan tertib.</p>
-                        <a href="berita.html" class="btn-kecil">Baca Selengkapnya</a>
-                    </div>
-                </div>
-                <div class="kartu-berita">
-                    <img src="images/lapangan.jpg" alt="Lomba Olahraga">
-                    <div class="isi-berita">
-                        <h3>Persiapan Lomba Olahraga Antar Sekolah</h3>
-                        <p>Tanggal: 5 Februari 2025</p>
-                        <p>Para siswa sedang berlatih dengan giat untuk mengikuti lomba olahraga yang akan diadakan di tingkat kecamatan.</p>
-                        <a href="berita.html" class="btn-kecil">Baca Selengkapnya</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- INFO CARD -->
+<section class="cards">
+    <div class="card">
+        <i class="fas fa-school"></i>
+        <h3>Fasilitas</h3>
+        <p>Ruang belajar nyaman dan aman</p>
+    </div>
+    <div class="card">
+        <i class="fas fa-user-graduate"></i>
+        <h3>Prestasi</h3>
+        <p>Siswa berprestasi tingkat daerah</p>
+    </div>
+    <div class="card">
+        <i class="fas fa-book"></i>
+        <h3>Kurikulum</h3>
+        <p>Kurikulum Merdeka + PSE</p>
+    </div>
+</section>
 
-    <!-- Bagian Footer -->
-    <footer>
-        <div class="container">
-            <div class="grid-footer">
-                <div class="kolom-footer">
-                    <h3>SDS Sungai Rumbia 2</h3>
-                    <p>Jl. Sungai Rumbia No. 2, Kelurahan X, Kecamatan Y, Kota Pekanbaru, Provinsi Riau, Kode Pos 28000</p>
-                </div>
-                <div class="kolom-footer">
-                    <h3>Navigasi</h3>
-                    <ul>
-                        <li><a href="index.html">Beranda</a></li>
-                        <li><a href="profil.html">Profil Sekolah</a></li>
-                        <li><a href="fasilitas.html">Fasilitas</a></li>
-                        <li><a href="guru-karyawan.html">Guru & Karyawan</a></li>
-                        <li><a href="berita.html">Berita</a></li>
-                        <li><a href="kontak.html">Kontak</a></li>
-                    </ul>
-                </div>
-                <div class="kolom-footer">
-                    <h3>Kontak Kami</h3>
-                    <p><i class="fa fa-phone"></i> (0761) XXXXXX</p>
-                    <p><i class="fa fa-envelope"></i> sdssungaumbia2@gmail.com</p>
-                    <p><i class="fa fa-clock-o"></i> Senin - Jumat: 07.00 - 15.00 WIB</p>
-                </div>
-            </div>
-            <div class="hak-cipta">
-                <p>&copy; 2025 SDS Sungai Rumbia 2. Hak Cipta Dilindungi Undang-Undang.</p>
-            </div>
-        </div>
-    </footer>
+<!-- BERITA -->
+<section>
+    <h2>Berita Terbaru</h2>
+    <div class="news">
+        <div class="news-item">Ujian Sekolah 2026 dimulai</div>
+        <div class="news-item">Kegiatan Pramuka aktif kembali</div>
+        <div class="news-item">PPDB telah dibuka</div>
+    </div>
+</section>
 
-    <script src="js/script.js"></script>
+<footer>
+    <p>© 2026 SDS Sungai Rumbia 2</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
