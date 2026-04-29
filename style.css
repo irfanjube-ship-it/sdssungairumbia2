@@ -70,28 +70,72 @@ body {
     }
 }
 
-/* NAV */
-nav {
+/* NAVBAR */
+.navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background: #1b5e20;
-    padding: 10px 20px;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #0d47a1, #1976d2);
+    padding: 0 10px;
 }
 
-nav .logo {
+/* LEFT */
+.nav-left .home-icon {
+    background: #0d47a1;
     color: white;
-    font-weight: bold;
+    padding: 12px 15px;
+    display: block;
 }
 
-nav .menu a {
+/* MENU */
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-menu a {
     color: white;
-    margin-left: 15px;
+    padding: 14px 12px;
     text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
 }
 
-nav .menu a:hover {
-    color: yellow;
+.nav-menu a:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+/* RIGHT */
+.nav-right {
+    display: flex;
+}
+
+.nav-right a {
+    color: white;
+    padding: 12px 15px;
+}
+
+/* SEARCH */
+.nav-right .search {
+    background: #1565c0;
+}
+
+/* TELP (HIJAU) */
+.nav-right .telp {
+    background: #2ecc71;
+}
+
+/* ICON SIZE */
+.navbar i {
+    font-size: 16px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
 /* SLIDER */
