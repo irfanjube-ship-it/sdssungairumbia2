@@ -1,0 +1,51 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background: #f4f4f4;
+}
+
+header {
+background: #2e7d32;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+nav {
+background: #333;
+padding: 10px;
+text-align: center;
+}
+
+nav a {
+color: white;
+margin: 10px;
+text-decoration: none;
+}
+
+.hero {
+padding: 50px;
+text-align: center;
+background: #a5d6a7;
+}
+
+section {
+padding: 20px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+table, th, td {
+border: 1px solid black;
+padding: 8px;
+}
+
+footer {
+background: black;
+color: white;
+text-align: center;
+padding: 10px;
+}
